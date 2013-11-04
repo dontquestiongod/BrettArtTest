@@ -64,7 +64,7 @@ html[xmlns] .slides {display: block;}
 .flex-direction-nav .flex-next { 
 	width: 37px; 
 	height: 37px; 
-	background: #6fb1d4 url(../images/next-slide.png) center no-repeat; 
+	background: #000000 url(../images/next-slide.png) center no-repeat; 
 	float: right;
 	transition: opacity 0.2s linear;
 	-moz-transition: opacity 0.2s linear;
@@ -75,7 +75,7 @@ html[xmlns] .slides {display: block;}
 .flex-direction-nav .flex-prev { 
 	width: 37px; 
 	height: 37px;  
-	background: #6fb1d4 url(../images/prev-slide.png) center no-repeat; 
+	background: #000000 url(../images/prev-slide.png) center no-repeat; 
 	float: left;
 		transition: opacity 0.2s linear;
 	-moz-transition: opacity 0.2s linear;
