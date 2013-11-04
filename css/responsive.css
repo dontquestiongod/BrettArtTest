@@ -33,7 +33,11 @@
 
 	#main-slider .flex-caption,
 	#main-slider .flex-caption1 {
-		display: none;
+		margin-top: -259px;
+	margin-right: 40px;
+	padding: 2px 4px 2px 4px;
+	line-height: 11px;
+	font-size: 10px;
 	}
 
 	.blog-text {
