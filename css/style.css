@@ -24,6 +24,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-size:100%;
 	font:inherit;
 	vertical-align:baseline;
+
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -32,6 +33,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
 	line-height:1;
+	font-family: font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 ol, ul {
@@ -56,13 +58,13 @@ input, select, textarea {
 	outline:0;
 }
 
-@font-face {
+/*@font-face {
 	font-family:'BebasNeueRegular';
 	src:url('font/bebasneue-webfont.eot');
 	src:url('font/bebasneue-webfont.eot@#iefix') format('eot'), url('font/bebasneue-webfont.woff') format('woff'), url('font/bebasneue-webfont.ttf') format('truetype'), url('font/bebasneue-webfont.svg#webfontX0YNjQNl') format('svg');
 	font-weight:normal;
 	font-style:normal;
-}
+}*/
 
 .clearfix:after {
 	content:".";
@@ -147,10 +149,19 @@ header {
 }
 
 #logo {
-	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
 	width: 100%;
-	height: auto;
-	padding: 30px 0;
+	padding: 8px 18px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: 100;
+	font-size: 38px;
+	font-color: #000000;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
 }
 
 .inner-header {
@@ -171,18 +182,18 @@ header {
 }
 
 .menu nav > ul > li:first-child > a {
-	border-top: 1px solid #e4e4e4;
+	border-top: 0px solid #000000;
 }
 
 .menu nav ul li a {
 	display: inline-block;
 	text-transform: uppercase;
 	width: 100%;
-	padding: 14px 18px;
+	padding: 8px 18px;
 	color: #000000;
 	font-size: 14px;
-	border-bottom: 1px solid #e4e4e4;
-	font-family: 'Open Sans', sans-serif;
+	border-bottom: 0px solid #e4e4e4;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	-webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -202,7 +213,7 @@ header {
 	top: 12px;
 	right: 10px;
 	background: #fff url('../images/menu-arrow.png') center center no-repeat;
-	border: 1px solid #d3d4d5;
+	border: 0px solid #d3d4d5;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -227,8 +238,8 @@ header {
 }
 
 .menu nav ul li.drop:hover ul.dropdown {
-	border-bottom: 1px solid #e4e4e4;
-	padding: 8px 0;
+	border-bottom: 0px solid #e4e4e4;
+	padding: 12px 0;
 	height: auto;
 }
 
@@ -301,6 +312,7 @@ header {
 
 #content { 
 	position: relative;
+	margin-top: 40px;
 	margin-bottom: 90px;
 }
 
@@ -313,7 +325,7 @@ header {
 #main-slider .flex-direction-nav  {
 	width: 37px;
 	height: 75px;
-	bottom: 10px;
+	bottom: -40px;
 	top: inherit;
 	right: 10px;
 	left: inherit;
@@ -325,8 +337,9 @@ header {
 
 #main-slider .flex-control-nav {
 	bottom: 10px;
-	left: 10px;
+	left: 50px;
 	top: inherit;
+
 }
 
 #main-slider .flex-caption {
@@ -335,7 +348,7 @@ header {
 	left: 50px;
 	color: #000000;
 	font-size: 13px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	background: #FFFFFF;
 	padding: 13px 10px;
 }
@@ -350,7 +363,7 @@ header {
 	left: 50px;
 	color: #000000;
 	font-size: 13px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	background: #FFFFFF;
 	padding: 13px 10px;
 }
@@ -388,7 +401,7 @@ header {
 #top-articles h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	color: #373737;
+	color: #000000;
 	margin-bottom: 8px;
 }
 
@@ -1819,8 +1832,8 @@ ul.member-data li p,
 	text-align: center;
 	font-size: 13px;
 	font-family: arial;
-	color: #fff;
-	background: #343434;
+	color: #000000;
+	background: #fff;
 	margin-right: 7px;
 	margin-bottom: 10px;
 	border-radius: 4px;
@@ -1839,7 +1852,7 @@ ul.member-data li p,
 
 #btn1 {
 	background: #fff;
-	color: #5b5b5b;
+	color: #000000;
 	border:1px solid #c1c1c1;
 }
 
@@ -1851,19 +1864,19 @@ ul.member-data li p,
 
 #btn3 {
 	background: #b7b7b7;
-	color: #323232;
+	color: #000000;
 	border:1px solid #b7b7b7;
 }
 
 #btn4 {
 	background: #faebd7;
-	color: #5b5b5b;
+	color: #000000;
 	border:1px solid #c1c1c1;
 }
 
 #btn5 {
 	background: #7fffd4;
-	color: #5b5b5b;
+	color: #000000;
 	border:1px solid #7fffd4;
 }
 
@@ -1889,7 +1902,7 @@ ul.member-data li p,
 
 #btn10 {
 	background: #deb887;
-	color: #333333;
+	color: #000000;
 	border:1px solid #deb887;
 }
 
@@ -1951,7 +1964,7 @@ ul.member-data li p,
 
 #btn22 {
 	background: #7fffd4;
-	color: #5b5b5b;
+	color: #000000;
 	border:1px solid #c1c1c1;
 }
 
